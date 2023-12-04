@@ -484,6 +484,20 @@ footer {
         left: 30px;
         padding-right: 30px;
     }
+
+    .project__wrapper:before {
+        opacity: 0.7;
+    }
+
+    .project__img {
+        filter: blur(3px);
+    }
+
+    .project__description {
+        opacity: 1;
+        transform: translateY(-50%);
+    }
+
 }
 
 /* SMALL PHONES */
@@ -519,30 +533,6 @@ footer {
         margin: 12px 0;
     }
 
-    /* .project:hover .project__wrapper:before, .project:active .project__wrapper:before{
-        opacity: 0.7;
-    }
-    
-    .project:hover .project__img, .project:active .project__img {
-        transform: scale(1.07);
-        filter: blur(5px);
-    }
-    
-    .project:hover .project__description, .project:active .project__description {
-        opacity: 1;
-        transform: translateY(-50%);
-    } */
-
-    /* .language:active .language__img {
-        filter: brightness(80%);
-        opacity: 0.86;
-        transform: scale(0.9);
-    }
-
-    .language:active .language__name {
-        transform: scale(1);
-        opacity: 1;
-    } */
 }
 
 
